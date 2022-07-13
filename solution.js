@@ -69,3 +69,20 @@ return string1.slice(0,string1.indexOf(' '));
 }
 
 sliceFirstWord("Hello World, it's me. I've been wondering after all these years if you wanna meet to go over...");
+
+// HARD Write an arrow function that takes in one string. The function should return a new string that where each word in the input string is repeated by the amount of words in the input string.
+//10. 
+wordRepeater = (string1) => {
+    array1 = string1.split(' ');
+    repeatNum = array1.length;
+    string2 = [];
+    for(i=0;i<repeatNum;i++)
+      {
+        for(j=0;j<repeatNum;j++)
+         string2.push(array1[i])
+          };
+    string2 = string2.join(' ');
+    return string2;
+    }
+    
+    console.log(wordRepeater('HOW ARE YOU !!!!'));
