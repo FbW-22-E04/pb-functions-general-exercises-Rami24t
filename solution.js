@@ -68,4 +68,4 @@ const sliceFirstWord = (string1) => {
 return string1.slice(0,string1.indexOf(' '));
 }
 
-sliceFirstWord("Hello, it's me. I've been wondering after all these years if you wanna meet to go over...");
+sliceFirstWord("Hello World, it's me. I've been wondering after all these years if you wanna meet to go over...");
