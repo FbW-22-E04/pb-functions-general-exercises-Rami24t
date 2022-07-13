@@ -64,9 +64,7 @@ return (typeof string1 == "string" && typeof string2 == "string")
 checkIsString2('200',2);
 
 //9.
-const sliceFirstWord = (string1) => {
-return string1.slice(0,string1.indexOf(' '));
-}
+const sliceFirstWord = string1 => string1.split(' ')[0];
 
 sliceFirstWord("Hello World, it's me. I've been wondering after all these years if you wanna meet to go over...");
 
