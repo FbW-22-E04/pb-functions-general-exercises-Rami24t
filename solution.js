@@ -4,7 +4,7 @@ for(i=0;i<3;i++)
 console.log(input)
 }
 
-tripleLog('Game');
+showTripleLog('Game');
 
 //2.
  function showFiveLog(input) {
