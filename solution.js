@@ -87,12 +87,15 @@ wordRepeater = (string1) => {
     
     console.log(wordRepeater('HOW ARE YOU !!!!'));
 
+//11.
 // Write a short (single line) arrow function that takes in one string and returns the first character of that string. Examples:
 // firstLetter("cat") --> "c"
 // firstLetter("quylthulg") --> "q"
 
 const firstCharOf = string1 => string1[0];
 
+
+//12. 
 // Write an arrow function that takes in one string and returns a new string. The new string needs to be made from the first letter of each of the words in the input. Examples:
 // firstLetters("MongoDB Express Node React") --> "MERN"
 // firstLetters("What You See Is What You Get") --> "WYSIWYG"
@@ -105,10 +108,12 @@ const firstLetters = (string1) => {
 }
 // console.log(firstLetters("What You See Is What You Get"));
 
+//13.
 // Write an arrow function that takes in one variable. If that variables is a string, it will return the length of the string. If that variable is an array, it returns the length of the array. If it is something else, it will return null. You might need to search Google to find out how can you identify if the parameter is an array - but there are other ways to solve this too!
 const lengthOf = variable1 => variable1.length==0 ? 0 : variable1.length||null;
 // console.log(lengthOf('534'));
 
+//14.
 // Write an arrow function that takes in one variable. If the variable is not a string, return null. If it is a string, return an array where each of the characters of that string is in individual array entry. Examples:
 // explode("Cat") --> ["C", "a", "t"]
 // explode(41) --> null
@@ -117,8 +122,8 @@ const lengthOf = variable1 => variable1.length==0 ? 0 : variable1.length||null;
 const explode = (string1) => typeof string1 == "string" ? string1.split("") : null;
 // console.log(explode('R & D'));
 
+//15.
 // Reverse engineering challenge 1. Write a function that does this (BONUS: write it as a short (one line) arrow function):
-
 // foo("") -> false
 // foo("a") -> false
 // foo("o") -> true
@@ -131,7 +136,7 @@ const explode = (string1) => typeof string1 == "string" ? string1.split("") : nu
 const foo = string1 => string1.slice(-1)=='o';
 // console.log(foo(""),foo("a"),foo("o"),foo("Cat"),foo("Tomato"),foo("Potato"),foo("Blanket"),foo("1"));
 
-
+//16.
 // Reverse engineering challenge 2. Write a function that does this (BONUS: write it as a short (one line) arrow function):
 
 // bar("") --> "Cat"
