@@ -44,7 +44,7 @@ printIfDivisibleByTen(i);
 
 
 //6.
- maxFive = (num1,num2,num3,num4,num5) => {
+const maxFive = (num1,num2,num3,num4,num5) => {
 return Math.max(num1,num2,num3,num4,num5);
 }
 
@@ -52,19 +52,19 @@ maxFive(987,765,456,321,123);
 
 
 //7.
- checkIsString = (string1) => {
+const checkIsString = (string1) => {
 return (typeof string1 == "string")
 }
 checkIsString('200');
 
 //8.
- checkIsString2 = (string1, string2) => {
+const checkIsString2 = (string1, string2) => {
 return (typeof string1 == "string" && typeof string2 == "string")
 }
 checkIsString2('200',2);
 
 //9.
-sliceFirstWord = (string1) => {
+const sliceFirstWord = (string1) => {
 return string1.slice(0,string1.indexOf(' '));
 }
 
